@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Takibi",
+    "slug": "takibi-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Додаток потребує доступу до ваших фото для завантаження аватарки."
+        }
+      ]
+    ]
+  }
+}
